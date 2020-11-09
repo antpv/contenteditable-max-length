@@ -1,0 +1,34 @@
+{
+  "name": "contenteditable-max-length",
+  "version": "0.0.1",
+  "description": "Sets the maximum number of characters that can be entered in the contenteditable element",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build-dev": "cross-env NODE_ENV=development webpack --config webpack.config.js",
+    "build-prod": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antpv/contenteditable-max-length.git"
+  },
+  "keywords": [
+    "contenteditable"
+  ],
+  "author": "antpv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antpv/contenteditable-max-length/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "homepage": "https://github.com/antpv/contenteditable-max-length#readme"
+}
