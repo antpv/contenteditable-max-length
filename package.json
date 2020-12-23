@@ -1,6 +1,6 @@
 {
   "name": "contenteditable-max-length",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Sets the maximum number of characters that can be entered in the contenteditable element",
   "main": "dist/bundle.js",
   "scripts": {
