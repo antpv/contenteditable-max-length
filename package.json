@@ -11,7 +11,8 @@
     "url": "git+https://github.com/antpv/contenteditable-max-length.git"
   },
   "keywords": [
-    "contenteditable"
+    "contenteditable",
+    "maxlength"
   ],
   "author": "antpv",
   "license": "MIT",
